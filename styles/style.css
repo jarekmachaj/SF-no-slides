@@ -1,0 +1,110 @@
+#loadAll{
+	margin-bottom: 25px;
+}
+
+#gazeta_article_body img{
+	display: block;
+	margin: 5px;
+}
+
+#gazeta_article_image_new img {
+	display: block;
+	margin: 5px;	
+	clear: both;
+}
+
+.extStatus{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#opinions{
+	float: left !important;
+	clear: both !important;
+}
+
+.slideTitle {
+	background: white;
+	color: black;
+	font-weight: bold;
+	font-size: 16pt;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	display: block !important;
+	float: left !important;
+	clear: both;
+}
+
+.slideTopTitle {
+	font-size: 26px;
+font-weight: bold;
+line-height: normal;
+margin: 0 0 7px;
+font-style: normal;
+padding: 0;
+display: block;
+font-size: 2em;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+.contentWrapper {
+	color: black;
+	background: white;
+	display: block;
+	float: left;
+	clear: both;
+}
+
+.loadButton {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:14px;
+	-moz-border-radius-topleft:14px;
+	border-top-left-radius:14px;
+	-webkit-border-top-right-radius:14px;
+	-moz-border-radius-topright:14px;
+	border-top-right-radius:14px;
+	-webkit-border-bottom-right-radius:14px;
+	-moz-border-radius-bottomright:14px;
+	border-bottom-right-radius:14px;
+	-webkit-border-bottom-left-radius:14px;
+	-moz-border-radius-bottomleft:14px;
+	border-bottom-left-radius:14px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:36px;
+	width:95%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}
+.loadButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}
+
+.loadButton:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "SportoweFakty No slides",
+    "description": "SportoweFakty No slides",
+    "version": "1.0.0",
+    "options_page": "options.html",
+    "permissions": [ "tabs", "http://*/*", "storage" ],
+    "web_accessible_resources": ["scripts/jquery.js", "resources/ajax-loader.gif", "scripts/jquery-2.0.3.min.map"],
+    "content_scripts": [
+      {
+        "matches": ["http://sportowefakty.pl.pl/*", "http://www.sportowefakty.pl/*"],
+        "js": ["scripts/jquery.js", "sfnoslides.js"],
+        "css": ["styles/style.css"],
+        "run_at": "document_end"
+      }
+    ]
+}
