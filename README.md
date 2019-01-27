@@ -2,7 +2,7 @@ SportoweFakty.pl No Slides
 ===========
 
 ##Description
-SF No Slides is an an extension for Google Chrome. 
+SF No Slides is an extension for Google Chrome. 
 
 ### Result
 
